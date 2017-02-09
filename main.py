@@ -31,13 +31,14 @@ def main():
         runic_iron()
     else:
         print "smells like nice forest and weed"
+        pure_leaf()
     
 def first_ingredient():
-    first_choice = int(input("""the ingredients are stored on various shelves
+    choice_1 = int(input("""the ingredients are stored on various shelves
                            1:dead man's tooth
                            2:runic iron
                            3:pure leaf"""))
-    return first_choice
+    return choice_1
 
 #second layer
 
